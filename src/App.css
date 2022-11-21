@@ -18,10 +18,6 @@
 }
 
 
-.App-link {
-  color: #fb8061;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -31,3 +27,6 @@
   }
 }
 
+footer{
+  background-color: aqua;
+}
