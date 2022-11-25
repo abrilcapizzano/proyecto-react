@@ -34,7 +34,7 @@ export default function App() {
                   <img
                     src="https://img.icons8.com/color/48/000000/visa.png"
                     alt="visa"
-                    width="40px"
+                    width="20px"
                   />
                 </MDBCol>
 
