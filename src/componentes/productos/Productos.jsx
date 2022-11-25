@@ -7,6 +7,9 @@ import Buttonvolver from "./Buttonvolver";
 import Carrito from "../carrito/Carrito";
 
 
+fetch('https://fakestoreapi.com/products')
+            .then(res=>res.json())
+            .then(json=>Productos)
 function Productos () {
     return(  
 <div className="mainProductos">

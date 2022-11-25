@@ -10,10 +10,12 @@ import {
   MDBRow,
 } from "mdb-react-ui-kit";
 import Buttonvolver from "./Buttonvolver";
+import Textopagar from "./Texto";
 
 export default function App() {
   return (
     <>
+    <Textopagar/>
     <MDBContainer fluid className="py-5 gradient-custom form">
       <MDBRow className="d-flex justify-content-center py-5">
         <MDBCol md="7" lg="6" xl="6">
@@ -32,7 +34,7 @@ export default function App() {
                   <img
                     src="https://img.icons8.com/color/48/000000/visa.png"
                     alt="visa"
-                    width="64px"
+                    width="40px"
                   />
                 </MDBCol>
 
