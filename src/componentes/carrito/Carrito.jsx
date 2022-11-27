@@ -29,7 +29,7 @@ export default function Carrito() {
         tabIndex='-1'
         setShow={setTopRightModal}
       >
-        <MDBModalDialog position='top-right' side>
+        <MDBModalDialog position='top-right'>
           <MDBModalContent>
             <MDBModalHeader className='bg-info text-white'>
               <MDBModalTitle>Carrito</MDBModalTitle>

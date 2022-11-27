@@ -31,7 +31,7 @@ id:4}
     ] 
   return (
 productos.map((producto)=>(
-      <div>
+      <div key={producto.nombre + producto.id}>
       <Card className='card' style={{ width: '18rem' }}>
       <Card.Img variant="top" src={producto.img} />
       <Card.Body> 
