@@ -34,7 +34,7 @@ export default function App() {
                   <img
                     src="https://img.icons8.com/color/48/000000/visa.png"
                     alt="visa"
-                    width="20px"
+                    width="30px"
                   />
                 </MDBCol>
 
@@ -62,8 +62,9 @@ export default function App() {
                     placeholder="&#9679;&#9679;&#9679;"
                   />
                 </MDBCol>
-                <MDBCol size="3">
-                  <MDBBtn color="info" rounded size="lg">
+                <MDBCol size="2">
+                  <MDBBtn color="info" >
+                  Pagar
                     <MDBIcon fas icon="arrow-right" />
                   </MDBBtn>
                 </MDBCol>
