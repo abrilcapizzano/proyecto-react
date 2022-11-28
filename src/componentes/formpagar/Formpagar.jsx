@@ -38,7 +38,7 @@ export default function App() {
                   />
                 </MDBCol>
 
-                <MDBCol size="9">
+                <MDBCol size="10">
                   <MDBInput
                     label="Nombre Del Titular"
                     id="form2"

@@ -47,7 +47,6 @@ export default function Carrito() {
                 </div>
                 <img src={carritosvg} className="carritoimg" alt="Imagen Carrito" ></img>
                 <div className='col-9'>
-                  <p></p>
                   <p>Aceptamos tarjetas de débito y credito</p>
                 </div>
               </div>
