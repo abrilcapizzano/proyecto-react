@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import carritosvg from "./img/cart.svg"
+import "./carrito.css"
 import {
   MDBBtn,
   MDBModal,
@@ -44,7 +45,7 @@ export default function Carrito() {
                 <div className='col-3 text-center'>
                   <i className='fas fa-shopping-cart fa-4x text-info'></i>
                 </div>
-
+                <img src={carritosvg} className="carritoimg" alt="Imagen Carrito" ></img>
                 <div className='col-9'>
                   <p></p>
                   <p>Aceptamos tarjetas de débito y credito</p>

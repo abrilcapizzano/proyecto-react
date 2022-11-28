@@ -16,9 +16,9 @@ function Productos () {
 <Carrito/>
 <Cards/>
 
-<Buttonpagar/>
+<Buttonpagar />
 
-<Buttonvolver/>
+<Buttonvolver />
 </div>
     )
 }
