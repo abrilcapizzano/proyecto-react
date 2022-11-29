@@ -62,7 +62,7 @@ export default function App() {
                     placeholder="&#9679;&#9679;&#9679;"
                   />
                 </MDBCol>
-                <MDBCol size="2">
+                <MDBCol size="1">
                   <MDBBtn color="info" >
                   Pagar
                     <MDBIcon fas icon="arrow-right" />
