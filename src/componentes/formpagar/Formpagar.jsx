@@ -5,12 +5,12 @@ import {
   MDBCardBody,
   MDBCol,
   MDBContainer,
-  MDBIcon,
   MDBInput,
   MDBRow,
 } from "mdb-react-ui-kit";
 import Buttonvolver from "./Buttonvolver";
 import Textopagar from "./Texto";
+import master from "./img/mastercard.png"
 
 export default function App() {
   return (
@@ -36,6 +36,11 @@ export default function App() {
                     alt="visa"
                     width="30px"
                   />
+                          <img
+                    src={master}
+                    alt="master"
+                    width="30px"
+                  />
                 </MDBCol>
 
                 <MDBCol size="10">
@@ -54,18 +59,17 @@ export default function App() {
                     type="date"
                   />
                 </MDBCol>
-                <MDBCol size="4">
+                <MDBCol size="3">
                   <MDBInput
-                    label="Código"
+                    label="CVV"
                     id="form2"
                     type="number"
                     placeholder="&#9679;&#9679;&#9679;"
                   />
                 </MDBCol>
-                <MDBCol size="1">
-                  <MDBBtn color="info" >
-                  Pagar
-                    <MDBIcon fas icon="arrow-right" />
+                <MDBCol>
+                  <MDBBtn className="button" color="info">
+                  <p className="pagar">Pagar</p>
                   </MDBBtn>
                 </MDBCol>
               </MDBRow>
