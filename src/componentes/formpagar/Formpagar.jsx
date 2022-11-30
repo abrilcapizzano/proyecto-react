@@ -36,7 +36,7 @@ export default function App() {
                     alt="visa"
                     width="30px"
                   />
-                          <img
+                  <img
                     src={master}
                     alt="master"
                     width="30px"
@@ -59,7 +59,7 @@ export default function App() {
                     type="date"
                   />
                 </MDBCol>
-                <MDBCol size="3">
+                <MDBCol size="4">
                   <MDBInput
                     label="CVV"
                     id="form2"
@@ -68,7 +68,7 @@ export default function App() {
                   />
                 </MDBCol>
                 <MDBCol>
-                  <MDBBtn className="button" color="info">
+                  <MDBBtn className="btn-form" color="info">
                   <p className="pagar">Pagar</p>
                   </MDBBtn>
                 </MDBCol>

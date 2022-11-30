@@ -9,7 +9,7 @@ import Carrito from "../carrito/Carrito";
 
 function Productos () {
     return(  
-<div>
+<>
 <Carrito/>
 <div className="mainProductos">
 <Cards />
@@ -17,7 +17,7 @@ function Productos () {
 
 <Buttonpagar />
 <Buttonvolver />
-</div>
+</>
     )
 }
 

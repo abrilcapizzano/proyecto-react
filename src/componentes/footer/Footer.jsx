@@ -1,11 +1,11 @@
 import React from "react";
 import "./footer.css"
-import icon from "./react-1.svg"
+import utn from "./utn.jpg"
 const Footer = () => {
     return (
      <footer className="footer">
-        <p className="tituloFooter">React Native App</p>
-<img className="icon" src={icon} alt="icon-react" />
+        <img src={utn} alt="icon-utn" width="60px"></img>
+        <p className="tituloFooter">Proyecto Final UTN</p>
         <p>Todos los derechos de autor reservados</p>
         <p>Abril Capizzano</p>
      </footer>
