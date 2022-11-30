@@ -22,18 +22,24 @@ function ButtonCrear() {
         </Modal.Header>
         <Modal.Body>
           <Form>
+          <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+              <Form.Label>Nombre Completo</Form.Label>
+              <Form.Control
+                type="text"
+                placeholder="Nombre"
+                autoFocus
+              />
+            </Form.Group>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
               <Form.Label>Dirección de mail</Form.Label>
               <Form.Control
                 type="email"
                 placeholder="tuemail@gmail.com"
-                autoFocus
               />
             </Form.Group>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
               <Form.Label>Contraseña</Form.Label>
-              <Form.Control
-                type="password"
+              <Form.Control type="password"
                 autoFocus
               />
             </Form.Group>
