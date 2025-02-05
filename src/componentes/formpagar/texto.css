@@ -1,0 +1,16 @@
+.textoinicial{
+    margin: 10px;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+h4{
+    color: rgb(12, 15, 86);
+    font-size: 34px;
+    font-weight: bold;
+}
+.subtitulo{
+    font-size: 24px;
+    color: black;
+}
